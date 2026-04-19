@@ -3,19 +3,23 @@ from __future__ import annotations
 from .models import KnowledgeGraph
 
 
+QUESTION_INTENTS = {
+    "Claim": ("주장", "claim"),
+    "Method": ("방법", "method"),
+    "Experiment": ("실험", "experiment", "result", "performance"),
+    "Limitation": ("한계", "limitation"),
+    "Concept": ("개념", "concept"),
+}
+
+
 def answer_question(question: str, graph: KnowledgeGraph) -> str:
     q = question.lower()
 
-    if "한계" in q or "limitation" in q:
-        limitation_nodes = [n for n in graph.nodes if n.type == "Limitation"]
-        if not limitation_nodes:
-            return "추출된 한계 정보가 없습니다."
-        return "\n".join(f"- {n.label}" for n in limitation_nodes)
+    for node_type, keywords in QUESTION_INTENTS.items():
+        if any(keyword in q for keyword in keywords):
+            matching_nodes = [n for n in graph.nodes if n.type == node_type]
+            if not matching_nodes:
+                return f"추출된 {keywords[0]} 정보가 없습니다."
+            return "\n".join(f"- {n.label}" for n in matching_nodes)
 
-    if "방법" in q or "method" in q:
-        method_nodes = [n for n in graph.nodes if n.type == "Method"]
-        if not method_nodes:
-            return "추출된 방법 정보가 없습니다."
-        return "\n".join(f"- {n.label}" for n in method_nodes)
-
-    return "질문 의도를 파악하지 못했습니다. '방법', '한계'처럼 질문해 보세요."
+    return "질문 의도를 파악하지 못했습니다. '주장', '방법', '실험', '한계', '개념'처럼 질문해 보세요."

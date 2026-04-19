@@ -1,0 +1,22 @@
+# Install with Python 3.11. The RTX 4060 machine was verified with CUDA 12.1
+# PyTorch wheels under an NVIDIA driver reporting CUDA 12.2 support.
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+accelerate==1.13.0
+bitsandbytes==0.49.2
+datasets==4.8.4
+einops==0.8.2
+huggingface_hub==1.11.0
+numpy==2.4.4
+pandas==3.0.2
+peft==0.19.1
+protobuf==7.34.1
+pytest==9.0.3
+safetensors==0.7.0
+sentencepiece==0.2.1
+transformers==5.5.4
+trl==1.2.0

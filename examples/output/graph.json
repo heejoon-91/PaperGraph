@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "graph-rag-overview",
+      "label": "과학 QA를 위한 근거 기반 GraphRAG",
+      "type": "Paper",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "id": "graph-rag-overview:claim:1",
+      "label": "근거 기반 GraphRAG는 주장을 원문 구절과 연결해 과학 QA에서 근거 없는 답변을 줄인다.",
+      "type": "Claim",
+      "paper_id": "graph-rag-overview",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "주장: 근거 기반 GraphRAG는 주장을 원문 구절과 연결해 과학 QA에서 근거 없는 답변을 줄인다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:method:1",
+      "label": "추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",
+      "type": "Method",
+      "paper_id": "graph-rag-overview",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "방법: 추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:experiment:1",
+      "label": "30개 질문으로 구성된 내부 벤치마크에서 그래프 기반 답변과 단순 검색 기반 답변을 비교했다.",
+      "type": "Experiment",
+      "paper_id": "graph-rag-overview",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "실험: 30개 질문으로 구성된 내부 벤치마크에서 그래프 기반 답변과 단순 검색 기반 답변을 비교했다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:result:2",
+      "label": "그래프 기반 답변은 30개 벤치마크 질문 중 27개에서 원문 근거가 붙은 인용을 유지했다.",
+      "type": "Experiment",
+      "paper_id": "graph-rag-overview",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "결과: 그래프 기반 답변은 30개 벤치마크 질문 중 27개에서 원문 근거가 붙은 인용을 유지했다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:limitation:1",
+      "label": "벤치마크 규모가 작고 아직 서로 충돌하는 논문을 다루지 않는다.",
+      "type": "Limitation",
+      "paper_id": "graph-rag-overview",
+      "section": "한계",
+      "page": null,
+      "evidence_span": "한계: 벤치마크 규모가 작고 아직 서로 충돌하는 논문을 다루지 않는다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:concept:1",
+      "label": "GraphRAG",
+      "type": "Concept",
+      "paper_id": "graph-rag-overview",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "개념: GraphRAG",
+      "confidence": 1.0
+    },
+    {
+      "id": "graph-rag-overview:concept:2",
+      "label": "근거 그래프",
+      "type": "Concept",
+      "paper_id": "graph-rag-overview",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "개념: 근거 그래프",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations",
+      "label": "문헌 QA 시스템의 실패 양상",
+      "type": "Paper",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "id": "scientific-qa-limitations:claim:1",
+      "label": "문헌 QA 시스템은 정확한 근거 구절을 드러내지 않은 채 논문 묶음을 요약할 때 가장 눈에 띄게 실패한다.",
+      "type": "Claim",
+      "paper_id": "scientific-qa-limitations",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "주장: 문헌 QA 시스템은 정확한 근거 구절을 드러내지 않은 채 논문 묶음을 요약할 때 가장 눈에 띄게 실패한다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:method:1",
+      "label": "5개 논문에 대해 수동 근거 매트릭스를 만들고 각 주장을 원문 구절과 대조한다.",
+      "type": "Method",
+      "paper_id": "scientific-qa-limitations",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "방법: 5개 논문에 대해 수동 근거 매트릭스를 만들고 각 주장을 원문 구절과 대조한다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:experiment:1",
+      "label": "검토자는 생성 답변에서 근거 없는 요약과 누락된 한계를 표시했다.",
+      "type": "Experiment",
+      "paper_id": "scientific-qa-limitations",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "실험: 검토자는 생성 답변에서 근거 없는 요약과 누락된 한계를 표시했다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:result:2",
+      "label": "근거 매트릭스 검토는 최종 종합문을 쓰기 전에 근거 없는 주장을 더 쉽게 걸러내게 했다.",
+      "type": "Experiment",
+      "paper_id": "scientific-qa-limitations",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "결과: 근거 매트릭스 검토는 최종 종합문을 쓰기 전에 근거 없는 주장을 더 쉽게 걸러내게 했다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:limitation:1",
+      "label": "수동 검토는 넓은 의미 검색보다 느리며 더 나은 내보내기 도구가 필요하다.",
+      "type": "Limitation",
+      "paper_id": "scientific-qa-limitations",
+      "section": "한계",
+      "page": null,
+      "evidence_span": "한계: 수동 검토는 넓은 의미 검색보다 느리며 더 나은 내보내기 도구가 필요하다.",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:concept:1",
+      "label": "문헌 QA",
+      "type": "Concept",
+      "paper_id": "scientific-qa-limitations",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "개념: 문헌 QA",
+      "confidence": 1.0
+    },
+    {
+      "id": "scientific-qa-limitations:concept:2",
+      "label": "근거 구절",
+      "type": "Concept",
+      "paper_id": "scientific-qa-limitations",
+      "section": "초록",
+      "page": null,
+      "evidence_span": "개념: 근거 구절",
+      "confidence": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "graph-rag-overview",
+      "target": "graph-rag-overview:claim:1",
+      "type": "paper_has_claim",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "graph-rag-overview",
+      "target": "graph-rag-overview:method:1",
+      "type": "paper_uses_method",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "graph-rag-overview",
+      "target": "graph-rag-overview:experiment:1",
+      "type": "paper_reports_experiment",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "graph-rag-overview",
+      "target": "graph-rag-overview:result:2",
+      "type": "paper_reports_experiment",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "graph-rag-overview",
+      "target": "graph-rag-overview:limitation:1",
+      "type": "paper_has_limitation",
+      "paper_id": "graph-rag-overview",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "graph-rag-overview:method:1",
+      "target": "graph-rag-overview:concept:1",
+      "type": "uses",
+      "paper_id": "graph-rag-overview",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "방법: 추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",
+      "confidence": 0.6
+    },
+    {
+      "source": "graph-rag-overview:method:1",
+      "target": "graph-rag-overview:concept:2",
+      "type": "uses",
+      "paper_id": "graph-rag-overview",
+      "section": "방법",
+      "page": null,
+      "evidence_span": "방법: 추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",
+      "confidence": 0.6
+    },
+    {
+      "source": "scientific-qa-limitations",
+      "target": "scientific-qa-limitations:claim:1",
+      "type": "paper_has_claim",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "scientific-qa-limitations",
+      "target": "scientific-qa-limitations:method:1",
+      "type": "paper_uses_method",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "scientific-qa-limitations",
+      "target": "scientific-qa-limitations:experiment:1",
+      "type": "paper_reports_experiment",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "scientific-qa-limitations",
+      "target": "scientific-qa-limitations:result:2",
+      "type": "paper_reports_experiment",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    },
+    {
+      "source": "scientific-qa-limitations",
+      "target": "scientific-qa-limitations:limitation:1",
+      "type": "paper_has_limitation",
+      "paper_id": "scientific-qa-limitations",
+      "section": "",
+      "page": null,
+      "evidence_span": "",
+      "confidence": null
+    }
+  ]
+}

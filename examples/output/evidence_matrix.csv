@@ -1,0 +1,15 @@
+paper_id,title,item_type,item_id,text,section,page,evidence_span,confidence
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Claim,graph-rag-overview:claim:1,근거 기반 GraphRAG는 주장을 원문 구절과 연결해 과학 QA에서 근거 없는 답변을 줄인다.,초록,,주장: 근거 기반 GraphRAG는 주장을 원문 구절과 연결해 과학 QA에서 근거 없는 답변을 줄인다.,1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Method,graph-rag-overview:method:1,"추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",방법,,"방법: 추출된 주장, 방법, 실험, 한계를 바탕으로 GraphRAG 근거 그래프를 구성한다.",1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Experiment,graph-rag-overview:experiment:1,30개 질문으로 구성된 내부 벤치마크에서 그래프 기반 답변과 단순 검색 기반 답변을 비교했다.,방법,,실험: 30개 질문으로 구성된 내부 벤치마크에서 그래프 기반 답변과 단순 검색 기반 답변을 비교했다.,1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Experiment,graph-rag-overview:result:2,그래프 기반 답변은 30개 벤치마크 질문 중 27개에서 원문 근거가 붙은 인용을 유지했다.,방법,,결과: 그래프 기반 답변은 30개 벤치마크 질문 중 27개에서 원문 근거가 붙은 인용을 유지했다.,1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Limitation,graph-rag-overview:limitation:1,벤치마크 규모가 작고 아직 서로 충돌하는 논문을 다루지 않는다.,한계,,한계: 벤치마크 규모가 작고 아직 서로 충돌하는 논문을 다루지 않는다.,1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Concept,graph-rag-overview:concept:1,GraphRAG,초록,,개념: GraphRAG,1.0
+graph-rag-overview,과학 QA를 위한 근거 기반 GraphRAG,Concept,graph-rag-overview:concept:2,근거 그래프,초록,,개념: 근거 그래프,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Claim,scientific-qa-limitations:claim:1,문헌 QA 시스템은 정확한 근거 구절을 드러내지 않은 채 논문 묶음을 요약할 때 가장 눈에 띄게 실패한다.,초록,,주장: 문헌 QA 시스템은 정확한 근거 구절을 드러내지 않은 채 논문 묶음을 요약할 때 가장 눈에 띄게 실패한다.,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Method,scientific-qa-limitations:method:1,5개 논문에 대해 수동 근거 매트릭스를 만들고 각 주장을 원문 구절과 대조한다.,방법,,방법: 5개 논문에 대해 수동 근거 매트릭스를 만들고 각 주장을 원문 구절과 대조한다.,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Experiment,scientific-qa-limitations:experiment:1,검토자는 생성 답변에서 근거 없는 요약과 누락된 한계를 표시했다.,방법,,실험: 검토자는 생성 답변에서 근거 없는 요약과 누락된 한계를 표시했다.,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Experiment,scientific-qa-limitations:result:2,근거 매트릭스 검토는 최종 종합문을 쓰기 전에 근거 없는 주장을 더 쉽게 걸러내게 했다.,방법,,결과: 근거 매트릭스 검토는 최종 종합문을 쓰기 전에 근거 없는 주장을 더 쉽게 걸러내게 했다.,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Limitation,scientific-qa-limitations:limitation:1,수동 검토는 넓은 의미 검색보다 느리며 더 나은 내보내기 도구가 필요하다.,한계,,한계: 수동 검토는 넓은 의미 검색보다 느리며 더 나은 내보내기 도구가 필요하다.,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Concept,scientific-qa-limitations:concept:1,문헌 QA,초록,,개념: 문헌 QA,1.0
+scientific-qa-limitations,문헌 QA 시스템의 실패 양상,Concept,scientific-qa-limitations:concept:2,근거 구절,초록,,개념: 근거 구절,1.0
